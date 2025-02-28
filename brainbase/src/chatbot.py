@@ -6,8 +6,8 @@ import os
 import json
 
 from openai.resources.chat import Completions
-from amadeus_api import AmadeusAPI
-from tools_for_open_ai import tools
+from src.amadeus_api import AmadeusAPI
+from src.tools_for_open_ai import tools
 
 api_mapping = {
     "extract_flight_offers_search": {

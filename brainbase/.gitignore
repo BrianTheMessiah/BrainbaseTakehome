@@ -1,1 +1,14 @@
+# Environments
 .env
+
+# Ignore all log files
+*.log
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore all temporary files
+*.tmp

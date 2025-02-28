@@ -1,7 +1,6 @@
 from doctest import debug
 from flask import Flask, jsonify, request
-from werkzeug.wrappers import response
-from chatbot import query_openai, call_api
+from src.chatbot import query_openai, call_api
 import json
 from flask_cors import CORS
 
