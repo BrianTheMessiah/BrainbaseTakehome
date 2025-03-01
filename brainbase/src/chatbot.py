@@ -1,11 +1,7 @@
-from pydoc import resolve
-import amadeus
-from httpx import head
 import openai
 import os
 import json
 
-from openai.resources.chat import Completions
 from src.amadeus_api import AmadeusAPI
 from src.tools_for_open_ai import tools
 

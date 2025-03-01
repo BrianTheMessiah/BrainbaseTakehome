@@ -1,4 +1,3 @@
-from doctest import debug
 from flask import Flask, jsonify, request
 from src.chatbot import query_openai, call_api
 import json
