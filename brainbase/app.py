@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 @app.route('/call_chatbot', methods=["GET"])
-def call_chatobt():
+def call_chatbot():
     user_input = request.args.get("messages")
     if user_input:
         messages = json.loads(user_input)
